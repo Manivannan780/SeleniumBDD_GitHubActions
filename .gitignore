@@ -1,0 +1,14 @@
+target/
+.project
+.classpath
+.settings/
+.metadata/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.html
+credentials.properties
+/node_modules/
+/vendor/
+*.tmp
