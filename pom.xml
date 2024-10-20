@@ -12,6 +12,21 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.12.1</version>
     </dependency>
+    
+    <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.12.1</version> <!-- Or a more recent version -->
+      <configuration>
+        <source>17</source>  <!-- Specify Java version as 17 -->
+        <target>17</target>  <!-- Specify Java version as 17 -->
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
 
     <!-- Selenium Java -->
     <dependency>
